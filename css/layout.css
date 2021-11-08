@@ -1,0 +1,9 @@
+h1 {
+    color: red;
+}
+button { 
+    background-color: rgb(207, 251, 8);
+    font-size: 50px;
+    padding: 100px 32px;
+    color: rgb(241, 32, 32);
+}
