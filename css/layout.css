@@ -1,8 +1,10 @@
 body  {
     background-image: url("paper.gif");
     background-color: #080000;
+    color:white
 }
 h1 {
+    padding-left: 100px;
     color: rgb(255, 251, 27);
 }
 h2{
@@ -24,6 +26,10 @@ p {
     color: aliceblue;  
     max-width: 700px;
   }
+h4{
+      font-size:25px;
+      color: white
+  }
 img {
     border-radius: 50%;
     padding: 15px;
@@ -36,10 +42,32 @@ strong.two {
     color: rgb(9, 246, 48);
 }
 
+img.social{
+    width:60px;
+    height:60px;
+}
 
 button { 
     background-color: rgb(251, 235, 8);
     font-size: 20px;
     padding: 10px 20px;
     color: rgb(24, 24, 24);
+}
+#mHStyle{
+ height: 30px;
+ font-size:  25px;  
+}
+img#doggypic{
+padding-left: 40px;
+}
+label.searchlabel{
+    font-size: 25px;
+}
+div.checkout{
+    font-size:30px;
+}
+div.cookingstyle{
+    font-size:30px;
+    padding-left: 250px;
+    padding-top: -500px;
 }

@@ -1,9 +1,18 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="../css/layout.css">
     </head>
+    <div>
+        <form  target="_black" action="https://www.google.com/search">
+        <label class="searchlabel" for="mHStyle">More Hair Style:
+        <input name="q" id="mHStyle"  type="text" placeholder="search here">
+        </label>
+        <button type="submit">search</button>
+       </form>
+    </div>
     <body>
-        <a href="#"><img src="https://www.thepetshotel.com.au/images/Dog%20Grooming/DoggySalon.jpg" alt="A puddle ."></a>
+        <a href="#"><img src="https://www.thepetshotel.com.au/images/Dog%20Grooming/DoggySalon.jpg" alt="A puddle ." id="doggypic"></a>
         <h1><b>WELCOME TO THE DOGGY SALON</b></h1>
         <h2><strong>Haircut Style:</strong></h2>
         <p> Make sure your dog has a wagging paw-like hairstyle this summer! 
@@ -20,13 +29,28 @@
         <a href="https://i.pinimg.com/564x/51/24/fd/5124fde867a7fca97341296d5607a691.jpg"><li>Cauliflower Style</li></a>
         <a href="https://i.pinimg.com/564x/23/d6/e1/23d6e1dd34b25fd7e3a9e1247356482a.jpg"><li>Disco Style</li></a>
         </ul>
+        
         <h3>Calculate the total price,
             please enter the totle number of hair and press"<b><strong>PRESS ME</strong></b>"</h3>
-
+            <div class="checkout">
+                <label for="cash">
+                    <input id="cash" type="radio" name="pay">cash
+                </label>
+                <label  for="card">
+                    <input id="card" type="radio" name="pay" checked>card
+                </label>
+            </div> 
         <input type="text" placeholder="first number" id="number1">
         <input type="text" placeholder="second number" id="number2">
         <button onclick="add()">PRESS ME </button>
         <button onclick="times()">PRESS ME </button>
+        
+        <div>
+        <h4>Follow Us:</h4>
+            <a href="https://www.instagram.com/sqgraphic8/"><img class="social" src="../images/instagram.png" ></a>
+            <a href="#"><img class="social" src="../images/facebook.png" ></a>
+        </div>
+       
         <script src="../javascript/functions.js"></script>
         
         
